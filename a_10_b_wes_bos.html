@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta type="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.reset.css" />
+    <style>
+      * {
+        border: 1px solid #000000;
+      }
+
+      .container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: #c7c7c7;
+        display: grid;
+        grid-template-columns: 100px repeat(2, 1fr 2fr);
+        grid-template-rows: repeat(5, 50px);
+        grid-auto-rows: 100px;
+      }
+
+      .items {
+        border: 1px solid #000000;
+        border-radius: 5px;
+      }
+
+      .item__1 {
+        background-color: #ff0000;
+      }
+
+      .item__2 {
+        background-color: #00ff00;
+      }
+
+      .item__2_a {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+      }
+
+      .item__3 {
+        background-color: #0000ff;
+      }
+
+      .item__4 {
+        background-color: #ffff00;
+      }
+
+      .item__5 {
+        background-color: #00ffff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h2 class="heading heading__text">CSS GRID: Placing Grid Items</h2>
+      <div class="container">
+        <div class="items item__1">Item 1</div>
+        <div class="items item__2 item__2_a">Item 2</div>
+        <div class="items item__3">Item 3</div>
+        <div class="items item__4">Item 4</div>
+        <div class="items item__5">Item 5</div>
+        <div class="items item__1">Item 6</div>
+        <div class="items item__2">Item 7</div>
+        <div class="items item__3">Item 8</div>
+        <div class="items item__4">Item 9</div>
+        <div class="items item__5">Item 10</div>
+        <div class="items item__1">Item 11</div>
+        <div class="items item__2">Item 12</div>
+        <div class="items item__3">Item 13</div>
+        <div class="items item__4">Item 14</div>
+        <div class="items item__5">Item 15</div>
+      </div>
+      <div>
+        Video tutorial
+        <a
+          href="https://www.youtube.com/watch?v=Z3BZMd4YzVw&list=PLu8EoSxDXHP5CIFvt9-ze3IngcdAc2xKG&index=3"
+          >Link</a
+        >
+      </div>
+    </main>
+  </body>
+</html>

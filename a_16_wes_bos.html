@@ -14,57 +14,94 @@
         padding: 10px;
         background-color: #c7c7c7;
         display: grid;
-        grid-template-columns: [first-start-vline] 250px [first-end-vline second-start-vline] auto [second-end-vline third-start-vline] 250px [third-end-vline];
-        grid-template-rows: [first-start-hline] repeat(4, 40px) [first-end-hline];
-        grid-auto-rows: 60px;
+        grid-template-columns: 100px repeat(2, 1fr 2fr);
+        grid-template-rows: 50px 100px;
+        grid-auto-rows: 150px 200px;
       }
 
       .items {
         border: 1px solid #000000;
         border-radius: 5px;
       }
-
-      .item__1 {
-        background-color: #ff0000;
-      }
-
-      .item__2 {
-        background-color: #00ff00;
-      }
-
-      .item__3 {
-        background-color: #0000ff;
-      }
-
-      .item__4 {
-        background-color: #ffff00;
-      }
-
-      .item__5 {
-        background-color: #00ffff;
-      }
     </style>
   </head>
 
   <body>
     <main>
-      <h2 class="heading heading__text">CSS GRID: Fundamentals</h2>
+      <h2 class="heading heading__text">
+        CSS GRID: grid-auto-flow dense Block Fitting
+      </h2>
       <div class="container">
         <div class="items item__1">Item 1</div>
         <div class="items item__2">Item 2</div>
         <div class="items item__3">Item 3</div>
         <div class="items item__4">Item 4</div>
         <div class="items item__5">Item 5</div>
-        <div class="items item__1">Item 6</div>
-        <div class="items item__2">Item 7</div>
-        <div class="items item__3">Item 8</div>
-        <div class="items item__4">Item 9</div>
-        <div class="items item__5">Item 10</div>
-        <div class="items item__1">Item 11</div>
-        <div class="items item__2">Item 12</div>
-        <div class="items item__3">Item 13</div>
-        <div class="items item__4">Item 14</div>
-        <div class="items item__5">Item 15</div>
+        <div class="items item__6">Item 6</div>
+        <div class="items item__7">Item 7</div>
+        <div class="items item__8">Item 8</div>
+        <div class="items item__9">Item 9</div>
+        <div class="items item__10">Item 10</div>
+        <div class="items item__11">Item 11</div>
+        <div class="items item__12">Item 12</div>
+        <div class="items item__13">Item 13</div>
+        <div class="items item__14">Item 14</div>
+        <div class="items item__15">Item 15</div>
+        <div class="items item__16">Item 16</div>
+        <div class="items item__17">Item 17</div>
+        <div class="items item__18">Item 18</div>
+        <div class="items item__19">Item 19</div>
+        <div class="items item__20">Item 20</div>
+        <div class="items item__21">Item 21</div>
+        <div class="items item__22">Item 22</div>
+        <div class="items item__23">Item 23</div>
+        <div class="items item__24">Item 24</div>
+        <div class="items item__25">Item 25</div>
+        <div class="items item__26">Item 26</div>
+        <div class="items item__27">Item 27</div>
+        <div class="items item__28">Item 28</div>
+        <div class="items item__29">Item 29</div>
+        <div class="items item__30">Item 30</div>
+        <div class="items item__41">Item 41</div>
+        <div class="items item__42">Item 42</div>
+        <div class="items item__43">Item 43</div>
+        <div class="items item__44">Item 44</div>
+        <div class="items item__45">Item 45</div>
+        <div class="items item__46">Item 46</div>
+        <div class="items item__47">Item 47</div>
+        <div class="items item__48">Item 48</div>
+        <div class="items item__49">Item 49</div>
+        <div class="items item__50">Item 50</div>
+        <div class="items item__51">Item 51</div>
+        <div class="items item__52">Item 52</div>
+        <div class="items item__53">Item 53</div>
+        <div class="items item__54">Item 54</div>
+        <div class="items item__55">Item 55</div>
+        <div class="items item__56">Item 56</div>
+        <div class="items item__57">Item 57</div>
+        <div class="items item__58">Item 58</div>
+        <div class="items item__59">Item 59</div>
+        <div class="items item__60">Item 60</div>
+        <div class="items item__61">Item 61</div>
+        <div class="items item__62">Item 62</div>
+        <div class="items item__63">Item 63</div>
+        <div class="items item__64">Item 64</div>
+        <div class="items item__65">Item 65</div>
+        <div class="items item__66">Item 66</div>
+        <div class="items item__67">Item 67</div>
+        <div class="items item__68">Item 68</div>
+        <div class="items item__69">Item 69</div>
+        <div class="items item__70">Item 70</div>
+        <div class="items item__71">Item 71</div>
+        <div class="items item__72">Item 72</div>
+        <div class="items item__73">Item 73</div>
+        <div class="items item__74">Item 74</div>
+        <div class="items item__75">Item 75</div>
+        <div class="items item__76">Item 76</div>
+        <div class="items item__77">Item 77</div>
+        <div class="items item__78">Item 78</div>
+        <div class="items item__79">Item 79</div>
+        <div class="items item__80">Item 80</div>
       </div>
       <div>
         Video tutorial

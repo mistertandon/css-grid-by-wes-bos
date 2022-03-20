@@ -1,4 +1,1 @@
-aclImdb_v1.tar.gz.tar.gz
-.ipynb_checkpoints/**
-aclImdb/**
-logs/**
+node_modules/

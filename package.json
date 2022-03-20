@@ -1,0 +1,22 @@
+{
+  "name": "css-grid-by-wes-bos",
+  "version": "1.0.0",
+  "description": "CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mistertandon/css-grid-by-wes-bos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mistertandon/css-grid-by-wes-bos/issues"
+  },
+  "homepage": "https://github.com/mistertandon/css-grid-by-wes-bos#readme",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  }
+}
